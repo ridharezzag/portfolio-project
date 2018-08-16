@@ -1,3 +1,3 @@
-# Udacity portfolio project website
+# Udacity portfolio website project 
 
-this project was for udacity Nanodegree, building a responsive portfolio website
+this project was build for udacity Nanodegree, building a responsive portfolio website
