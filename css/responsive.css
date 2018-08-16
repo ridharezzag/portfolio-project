@@ -1,0 +1,208 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+.udacityLogo {
+  padding: 10px;
+  float: left;
+  display: block;
+}
+
+
+.header-right {
+  float: right;
+  text-align: right;
+  padding: 10px;
+}
+
+
+.name {
+  color: #2d3c49;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+
+.buildWeb {
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+
+.webdev {
+  color: #2d3c49;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+
+.line {
+  padding-top: 10px;
+  border-bottom: 6px solid #7d97ad;;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #424242;
+}
+
+
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+header, footer, section, div {
+  box-sizing: border-box;
+}
+
+
+.featuredwork {
+  padding-top: 50px;
+  padding-left: 50px;
+  color: #7d97ad;
+}
+
+
+.item1 {
+  width: 300px;
+  height: auto;
+  /* background-image: url("servicesweb.png"); */
+  background-size: cover;
+  flex-grow: 1;
+}
+
+
+.item2 {
+  width: 300px;
+  height: auto;
+  /* background-image: url("servicesweb2.png"); */
+  background-size: cover;
+  flex-grow: 1;
+}
+
+
+.item3 {
+  width: 300px;
+  height: auto;
+  /* background-image: url("servicesweb3.png"); */
+  background-size: cover;
+  flex-grow: 1;
+}
+
+
+.featuredimage{
+  padding: 22px;
+}
+
+
+.worktitle{
+  width: 250px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2d3c49;
+}
+
+
+.introtext {
+  width: 250px;
+  padding: 0 20px;
+  float: left;
+}
+
+
+@media screen and (min-width: 821px) {
+  .item1 {
+    order: 0;
+    width: 33.3%;
+  }
+  .item2 {
+    order: 1;
+    width: 33.3%;
+  }
+  .item3 {
+    order: 2;
+    width: 33.3%;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .item1 {
+    order: 0;
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .name {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #424242;
+  }
+  .webdev {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #424242;
+  }
+  .udacityLogo {
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 20px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .name {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #424242;
+  }
+  .webdev {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #424242;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 950px) {
+  main, .header, .content {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
